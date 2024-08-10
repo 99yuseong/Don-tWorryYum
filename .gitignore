@@ -138,6 +138,3 @@ xcuserdata
 **/xcshareddata/WorkspaceSettings.xcsettings
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,swiftpm,swift,xcode
-
-### API KEY ###
-GenerativeAI-Info.plist
