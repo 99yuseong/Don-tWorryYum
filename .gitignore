@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos,swiftpm,swift,xcode
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,swiftpm,swift,xcode
+# Created by https://www.toptal.com/developers/gitignore/api/swiftpm,macos,swift,xcode
+# Edit at https://www.toptal.com/developers/gitignore?templates=swiftpm,macos,swift,xcode
 
 ### macOS ###
 # General
@@ -137,4 +137,8 @@ xcuserdata
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,swiftpm,swift,xcode
+# End of https://www.toptal.com/developers/gitignore/api/swiftpm,macos,swift,xcode
+
+### API KEY ###
+
+GenerativeAI-Info.plist
