@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420D63BD2C675D6200645CFA /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 420D63BC2C675D6200645CFA /* GenerativeAI-Info.plist */; };
 		42D1C93A2C67103F00147312 /* DontWorryYumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C9392C67103F00147312 /* DontWorryYumApp.swift */; };
 		42D1C93C2C67103F00147312 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C93B2C67103F00147312 /* ContentView.swift */; };
 		42D1C93E2C67104000147312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D1C93D2C67104000147312 /* Assets.xcassets */; };
 		42D1C9412C67104000147312 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D1C9402C67104000147312 /* Preview Assets.xcassets */; };
+		42D1C9482C67488E00147312 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C9472C67488E00147312 /* APIKey.swift */; };
+		42D1C94C2C6748EA00147312 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 42D1C94B2C6748EA00147312 /* GoogleGenerativeAI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		420D63BC2C675D6200645CFA /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
 		42D1C9362C67103F00147312 /* DontWorryYum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DontWorryYum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D1C9392C67103F00147312 /* DontWorryYumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DontWorryYumApp.swift; sourceTree = "<group>"; };
 		42D1C93B2C67103F00147312 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42D1C93D2C67104000147312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42D1C9402C67104000147312 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42D1C9472C67488E00147312 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D1C94C2C6748EA00147312 /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +41,7 @@
 		42D1C92D2C67103F00147312 = {
 			isa = PBXGroup;
 			children = (
+				420D63BC2C675D6200645CFA /* GenerativeAI-Info.plist */,
 				42D1C9382C67103F00147312 /* DontWorryYum */,
 				42D1C9372C67103F00147312 /* Products */,
 			);
@@ -53,6 +60,7 @@
 			children = (
 				42D1C9392C67103F00147312 /* DontWorryYumApp.swift */,
 				42D1C93B2C67103F00147312 /* ContentView.swift */,
+				42D1C9472C67488E00147312 /* APIKey.swift */,
 				42D1C93D2C67104000147312 /* Assets.xcassets */,
 				42D1C93F2C67104000147312 /* Preview Content */,
 			);
@@ -83,6 +91,9 @@
 			dependencies = (
 			);
 			name = DontWorryYum;
+			packageProductDependencies = (
+				42D1C94B2C6748EA00147312 /* GoogleGenerativeAI */,
+			);
 			productName = DontWorryYum;
 			productReference = 42D1C9362C67103F00147312 /* DontWorryYum.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +122,9 @@
 				Base,
 			);
 			mainGroup = 42D1C92D2C67103F00147312;
+			packageReferences = (
+				42D1C94A2C6748EA00147312 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			productRefGroup = 42D1C9372C67103F00147312 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +141,7 @@
 			files = (
 				42D1C9412C67104000147312 /* Preview Assets.xcassets in Resources */,
 				42D1C93E2C67104000147312 /* Assets.xcassets in Resources */,
+				420D63BD2C675D6200645CFA /* GenerativeAI-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42D1C93C2C67103F00147312 /* ContentView.swift in Sources */,
+				42D1C9482C67488E00147312 /* APIKey.swift in Sources */,
 				42D1C93A2C67103F00147312 /* DontWorryYumApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +291,7 @@
 				DEVELOPMENT_TEAM = Q6CK9777WL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DontWorryYum/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +321,7 @@
 				DEVELOPMENT_TEAM = Q6CK9777WL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DontWorryYum/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +362,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		42D1C94A2C6748EA00147312 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		42D1C94B2C6748EA00147312 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42D1C94A2C6748EA00147312 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 42D1C92E2C67103F00147312 /* Project object */;
 }
