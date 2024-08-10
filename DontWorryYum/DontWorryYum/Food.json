@@ -1,0 +1,414 @@
+[
+    {
+        "food": "Raw Beef",
+        "nutrients": {
+            "protein": "20g",
+            "iron": "2.5g",
+            "vitamin B12": "2μg",
+            "zinc": "4mg",
+            "selenium": "20μg"
+        },
+        "category": "Meat/Processed Meat/Eggs",
+        "benefits": "Fetal growth and development, anemia prevention",
+        "cautions": "High risk of parasitic infection and foodborne illness, should be avoided."
+    },
+    {
+        "food": "Chicken Breast",
+        "nutrients": {
+            "protein": "31g",
+            "iron": "0.9mg"
+        },
+        "category": "Meat/Processed Meat/Eggs",
+        "benefits": "Fetal growth and development, neurotransmitter production",
+        "cautions": "Can be tough to digest, various cooking methods are recommended."
+    },
+    {
+        "food": "Smoked Salmon",
+        "nutrients": {
+            "protein": "18.3g",
+            "fat": "4.3g",
+            "omega 3": "1.5g"
+        },
+        "category": "Meat/Processed Meat/Eggs",
+        "benefits": "Fetal brain development, cardiovascular health",
+        "cautions": "High sodium content, potential carcinogens from smoking, excessive consumption should be avoided."
+    },
+    {
+        "food": "Tteokgalbi",
+        "nutrients": {
+            "protein": "15-20g",
+            "fat": "20-25g",
+            "sodium": "500-1000mg",
+            "carbohydrates": "5-15g"
+        },
+        "category": "Meat/Processed Meat/Eggs",
+        "benefits": "Energy supply",
+        "cautions": "High sodium content, cholesterol levels can vary based on meat quality."
+    },
+    {
+        "food": "Eggs",
+        "nutrients": {
+            "protein": "6g",
+            "fat": "5g",
+            "carbohydrates": "1g",
+            "vitamin B12": "0.5μg"
+        },
+        "category": "Meat/Processed Meat/Eggs",
+        "benefits": "Fetal brain development, bone health",
+        "cautions": "Raw eggs pose a risk of Salmonella infection, should be fully cooked."
+    },
+    {
+        "food": "Organ Meat",
+        "nutrients": {
+            "protein": "15-20g",
+            "iron": "5-10mg"
+        },
+        "category": "Meat/Processed Meat/Eggs",
+        "benefits": "Anemia prevention, vision protection",
+        "cautions": "High cholesterol content, potential heavy metal contamination, should be limited."
+    },
+    {
+        "food": "Chicken",
+        "nutrients": {
+            "protein": "27g",
+            "iron": "1.3mg"
+        },
+        "category": "Meat/Processed Meat/Eggs",
+        "benefits": "Fetal growth and development, blood production",
+        "cautions": "It is better to consume skinless, lean meat."
+    },
+    {
+        "food": "Duck",
+        "nutrients": {
+            "protein": "19g",
+            "fat": "28g",
+            "vitamin B12": "0.4μg"
+        },
+        "category": "Meat/Processed Meat/Eggs",
+        "benefits": "Fetal growth and development, cardiovascular health",
+        "cautions": "High fat content, should be consumed in moderation."
+    },
+    {
+        "food": "Lamb",
+        "nutrients": {
+            "protein": "25g",
+            "fat": "21g",
+            "iron": "1.8g"
+        },
+        "category": "Meat/Processed Meat/Eggs",
+        "benefits": "Fetal growth and development, anemia prevention",
+        "cautions": "High in fat, may be difficult to digest, and can have high cholesterol."
+    },
+    {
+        "food": "Mulhoe",
+        "nutrients": {
+            "protein": "12-15g",
+            "fat": "2-4g",
+            "sodium": "400-600mg"
+        },
+        "category": "Seafood",
+        "benefits": "Variety of nutrients",
+        "cautions": "Risk of foodborne illness, fresh ingredients and hygiene should be prioritized."
+    },
+    {
+        "food": "Salmon",
+        "nutrients": {
+            "protein": "20g",
+            "fat": "13g",
+            "omega 3": "2.5g",
+            "vitamin D": "600-800IU"
+        },
+        "category": "Seafood",
+        "benefits": "Fetal brain development, cardiovascular health",
+        "cautions": "Some varieties may have high mercury content, intake should be moderated."
+    },
+    {
+        "food": "Tuna",
+        "nutrients": {
+            "protein": "23g",
+            "fat": "0.5g",
+            "sodium": "35mg",
+            "vitamin B12": "2.5μg"
+        },
+        "category": "Seafood",
+        "benefits": "Fetal brain development, cardiovascular health",
+        "cautions": "Some varieties may have high mercury content, intake should be moderated, and skipjack tuna should be limited."
+    },
+    {
+        "food": "Oysters",
+        "nutrients": {
+            "protein": "5g",
+            "iron": "6mg",
+            "zinc": "8mg",
+            "selenium": "30μg"
+        },
+        "category": "Seafood",
+        "benefits": "Immune system boost, blood production",
+        "cautions": "High cholesterol content, risk of foodborne illness, should be fresh and cooked."
+    },
+    {
+        "food": "Crab",
+        "nutrients": {
+            "protein": "19g",
+            "fat": "1.5g",
+            "vitamin B12": "9μg",
+            "sodium": "300-400mg"
+        },
+        "category": "Seafood",
+        "benefits": "Muscle growth, immune system boost",
+        "cautions": "Can cause allergic reactions, may have high cholesterol."
+    },
+    {
+        "food": "Mackerel",
+        "nutrients": {
+            "protein": "18g",
+            "fat": "13g",
+            "omega 3": "2g",
+            "vitamin D": "300-600IU"
+        },
+        "category": "Seafood",
+        "benefits": "Fetal brain development, cardiovascular health",
+        "cautions": "Some varieties may have high mercury content, intake should be moderated."
+    },
+    {
+        "food": "Shrimp",
+        "nutrients": {
+            "protein": "20g",
+            "fat": "0.5g",
+            "zinc": "1.3mg",
+            "selenium": "40μg"
+        },
+        "category": "Seafood",
+        "benefits": "Muscle growth, immune system boost",
+        "cautions": "Can cause allergic reactions, may have high cholesterol."
+    },
+    {
+        "food": "Eel",
+        "nutrients": {
+            "protein": "18g",
+            "fat": "11g",
+            "vitamin A": "600IU",
+            "omega 3": "1.2g"
+        },
+        "category": "Seafood",
+        "benefits": "Vision protection, immune system boost",
+        "cautions": "High cholesterol content, fatty food, excessive consumption should be avoided."
+    },
+    {
+        "food": "Shellfish",
+        "nutrients": {
+            "protein": "10g",
+            "iron": "14mg",
+            "zinc": "2mg",
+            "selenium": "45μg"
+        },
+        "category": "Seafood",
+        "benefits": "Muscle growth, immune system boost",
+        "cautions": "Can cause allergic reactions, risk of foodborne illness, should be fresh and cooked."
+    },
+    {
+        "food": "Mozzarella",
+        "nutrients": {
+            "protein": "22g",
+            "fat": "17g",
+            "calcium": "505mg"
+        },
+        "category": "Dairy",
+        "benefits": "Protein, calcium"
+    },
+    {
+        "food": "Cheddar Cheese",
+        "nutrients": {
+            "protein": "25g",
+            "fat": "33g",
+            "calcium": "721mg"
+        },
+        "category": "Dairy",
+        "benefits": "Protein, calcium"
+    },
+    {
+        "food": "Cream Cheese",
+        "nutrients": {
+            "protein": "7g",
+            "fat": "34g",
+            "calcium": "98mg"
+        },
+        "category": "Dairy",
+        "benefits": "Protein, calcium"
+    },
+    {
+          "name": "Pumpkin",
+          "nutrients": {
+            "beta_carotene": "340μg",
+            "vitamin_C": "9.0mg",
+            "potassium": "230mg"
+          },
+          "type": "Vegetable",
+          "benefits": ["Antioxidant effect", "Immune system enhancement", "Blood pressure regulation"]
+        },
+        {
+          "name": "Soybean Sprouts",
+          "nutrients": {
+            "vitamin_C": "13.2mg",
+            "dietary_fiber": "1.8g"
+          },
+          "type": "Vegetable",
+          "benefits": ["Immune system enhancement", "Constipation prevention"]
+        },
+        {
+          "name": "Mushrooms",
+          "nutrients": {
+            "vitamin_D": "0.2μg",
+            "dietary_fiber": "1.0g"
+          },
+          "type": "Vegetable",
+          "benefits": ["Calcium absorption promotion", "Constipation prevention"]
+        },
+        {
+          "name": "Brown Rice",
+          "nutrients": {
+            "dietary_fiber": "3.5g",
+            "vitamin_B": "0.9mg",
+            "minerals": "1.0mg"
+          },
+          "type": "Grain",
+          "benefits": ["Constipation prevention", "Energy metabolism", "Blood sugar regulation"]
+        },
+        {
+          "name": "Glutinous Rice",
+          "nutrients": {
+            "carbohydrates": "77.2g"
+          },
+          "type": "Grain",
+          "benefits": ["Energy supply", "High gluten content may cause digestion difficulties"]
+        },
+        {
+          "name": "Oats",
+          "nutrients": {
+            "dietary_fiber": "10.6g",
+            "beta_glucan": "3.5g"
+          },
+          "type": "Grain",
+          "benefits": ["Constipation prevention", "Blood cholesterol reduction"]
+        },
+        {
+          "name": "Barley",
+          "nutrients": {
+            "dietary_fiber": "17.3g",
+            "vitamin_B": "0.2mg",
+            "minerals": "0.8mg"
+          },
+          "type": "Grain",
+          "benefits": ["Constipation prevention", "Energy metabolism"]
+        },
+        {
+          "name": "Beans",
+          "nutrients": {
+            "protein": "8.0g",
+            "dietary_fiber": "6.4g",
+            "iron": "2.7mg"
+          },
+          "type": "Grain",
+          "benefits": ["Fetal growth and development", "Anemia prevention"]
+        },
+        {
+          "name": "Lentils",
+          "nutrients": {
+            "protein": "9.0g",
+            "dietary_fiber": "7.9g",
+            "iron": "3.3mg"
+          },
+          "type": "Grain",
+          "benefits": ["Fetal growth and development", "Anemia prevention"]
+        },
+        {
+          "name": "Red Beans",
+          "nutrients": {
+            "dietary_fiber": "7.0g",
+            "vitamin_B1": "0.3mg"
+          },
+          "type": "Grain",
+          "benefits": ["Constipation prevention", "Energy metabolism"]
+        },
+        {
+          "name": "Job's Tears",
+          "nutrients": {
+            "protein": "3.0g",
+            "vitamin_B1": "0.2mg",
+            "calcium": "8mg"
+          },
+          "type": "Grain",
+          "benefits": ["Digestive function improvement", "Bone health"]
+        },
+        {
+          "name": "Mung Beans",
+          "nutrients": {
+            "protein": "7.0g",
+            "vitamin_B1": "0.3mg",
+            "calcium": "67mg"
+          },
+          "type": "Grain",
+          "benefits": ["Digestive function improvement", "Bone health"]
+        },
+        {
+          "name": "Hamburger",
+          "nutrients": {
+            "protein": "12.0g",
+            "fat": "16g",
+            "sodium": "800mg"
+          },
+          "type": "Processed Food",
+          "benefits": ["Protein supply"],
+          "cautions": ["High sodium content, saturated fats, and trans fats may cause hypertension, obesity, and digestive issues."]
+        },
+        {
+          "name": "Pizza",
+          "nutrients": {
+            "carbohydrates": "36.0g",
+            "fat": "12g",
+            "sodium": "700mg"
+          },
+          "type": "Processed Food",
+          "cautions": ["High sodium content, saturated fats, and trans fats may cause hypertension, obesity, and digestive issues."]
+        },
+        {
+          "name": "Chicken",
+          "nutrients": {
+            "protein": "25.0g",
+            "fat": "15g"
+          },
+          "type": "Processed Food",
+          "benefits": ["Protein supply"],
+          "cautions": ["High calorie intake due to breading, and may have high sodium content."]
+        },
+        {
+          "name": "Noodles",
+          "nutrients": {
+            "carbohydrates": "60.0g",
+            "sodium": "1200mg"
+          },
+          "type": "Processed Food",
+          "cautions": ["High sodium content may cause hypertension and edema, and refined carbohydrates can rapidly raise blood sugar."]
+        },
+        {
+          "name": "Chicken Feet",
+          "nutrients": {
+            "protein": "20.0g",
+            "collagen": "1.5g"
+          },
+          "type": "Processed Food",
+          "cautions": ["Spicy flavor may cause heartburn and digestive issues, and hygiene conditions may pose food poisoning risks."]
+        },
+        {
+          "name": "Tteokbokki",
+          "nutrients": {
+            "carbohydrates": "35.0g",
+            "protein": "5.0g",
+            "sodium": "800mg",
+            "dietary_fiber": "1.0g"
+          },
+          "type": "Processed Food",
+          "cautions": ["Spicy flavor may cause heartburn and digestive issues."]
+        }
+
+        

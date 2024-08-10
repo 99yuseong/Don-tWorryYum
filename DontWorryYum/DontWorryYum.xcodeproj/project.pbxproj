@@ -8,6 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		420D63BD2C675D6200645CFA /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 420D63BC2C675D6200645CFA /* GenerativeAI-Info.plist */; };
+		420D63BF2C678AAD00645CFA /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63BE2C678AAD00645CFA /* Food.swift */; };
+		420D63C12C678F6100645CFA /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63C02C678F6100645CFA /* FoodView.swift */; };
+		420D63CD2C6790C400645CFA /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 420D63C42C6790C300645CFA /* Pretendard-Medium.otf */; };
+		420D63CE2C6790C400645CFA /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 420D63C52C6790C400645CFA /* Pretendard-ExtraLight.otf */; };
+		420D63CF2C6790C400645CFA /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 420D63C62C6790C400645CFA /* Pretendard-Light.otf */; };
+		420D63D02C6790C400645CFA /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 420D63C72C6790C400645CFA /* Pretendard-Thin.otf */; };
+		420D63D12C6790C400645CFA /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 420D63C82C6790C400645CFA /* Pretendard-SemiBold.otf */; };
+		420D63D22C6790C400645CFA /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 420D63C92C6790C400645CFA /* Pretendard-Bold.otf */; };
+		420D63D32C6790C400645CFA /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 420D63CA2C6790C400645CFA /* Pretendard-Black.otf */; };
+		420D63D42C6790C400645CFA /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 420D63CB2C6790C400645CFA /* Pretendard-Regular.otf */; };
+		420D63D52C6790C400645CFA /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 420D63CC2C6790C400645CFA /* Pretendard-ExtraBold.otf */; };
+		420D63D82C6790E300645CFA /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63D72C6790E300645CFA /* Font+.swift */; };
+		420D63DA2C67B44200645CFA /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63D92C67B44200645CFA /* NavigationManager.swift */; };
+		420D63DC2C67B62900645CFA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63DB2C67B62900645CFA /* SearchView.swift */; };
+		420D63E22C67C38E00645CFA /* Nutrients.json in Sources */ = {isa = PBXBuildFile; fileRef = 420D63E12C67C38E00645CFA /* Nutrients.json */; };
+		420D63E42C67C3D500645CFA /* Food.json in Sources */ = {isa = PBXBuildFile; fileRef = 420D63E32C67C3D500645CFA /* Food.json */; };
+		420D63E62C67D95500645CFA /* NickNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63E52C67D95500645CFA /* NickNameView.swift */; };
+		420D63E82C67DE6D00645CFA /* WeeksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63E72C67DE6D00645CFA /* WeeksView.swift */; };
+		420D63EA2C67E88200645CFA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63E92C67E88200645CFA /* MainView.swift */; };
+		420D63EC2C67EA5400645CFA /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63EB2C67EA5400645CFA /* Date+.swift */; };
+		420D63EE2C67EE8300645CFA /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63ED2C67EE8300645CFA /* Data.swift */; };
+		420D63F02C67FEB500645CFA /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63EF2C67FEB500645CFA /* IntroView.swift */; };
+		420D63F22C67FFE800645CFA /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63F12C67FFE800645CFA /* AppView.swift */; };
+		420D63F42C6802E500645CFA /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63F32C6802E500645CFA /* ListView.swift */; };
+		420D63F62C680BF300645CFA /* KeywordContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63F52C680BF300645CFA /* KeywordContainerView.swift */; };
+		420D63F82C68133500645CFA /* View+cornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63F72C68133500645CFA /* View+cornerRadius.swift */; };
+		420D63FA2C6817D300645CFA /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63F92C6817D300645CFA /* Color+.swift */; };
+		420D63FC2C681C7600645CFA /* DashedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63FB2C681C7600645CFA /* DashedLine.swift */; };
+		420D63FE2C681FFB00645CFA /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63FD2C681FFB00645CFA /* SplashView.swift */; };
 		42D1C93A2C67103F00147312 /* DontWorryYumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C9392C67103F00147312 /* DontWorryYumApp.swift */; };
 		42D1C93C2C67103F00147312 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C93B2C67103F00147312 /* ContentView.swift */; };
 		42D1C93E2C67104000147312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D1C93D2C67104000147312 /* Assets.xcassets */; };
@@ -18,6 +47,36 @@
 
 /* Begin PBXFileReference section */
 		420D63BC2C675D6200645CFA /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
+		420D63BE2C678AAD00645CFA /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		420D63C02C678F6100645CFA /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
+		420D63C42C6790C300645CFA /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		420D63C52C6790C400645CFA /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		420D63C62C6790C400645CFA /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		420D63C72C6790C400645CFA /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		420D63C82C6790C400645CFA /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		420D63C92C6790C400645CFA /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		420D63CA2C6790C400645CFA /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		420D63CB2C6790C400645CFA /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		420D63CC2C6790C400645CFA /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		420D63D72C6790E300645CFA /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
+		420D63D92C67B44200645CFA /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		420D63DB2C67B62900645CFA /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		420D63E12C67C38E00645CFA /* Nutrients.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Nutrients.json; sourceTree = "<group>"; };
+		420D63E32C67C3D500645CFA /* Food.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Food.json; sourceTree = "<group>"; };
+		420D63E52C67D95500645CFA /* NickNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickNameView.swift; sourceTree = "<group>"; };
+		420D63E72C67DE6D00645CFA /* WeeksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeksView.swift; sourceTree = "<group>"; };
+		420D63E92C67E88200645CFA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		420D63EB2C67EA5400645CFA /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		420D63ED2C67EE8300645CFA /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		420D63EF2C67FEB500645CFA /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		420D63F12C67FFE800645CFA /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		420D63F32C6802E500645CFA /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		420D63F52C680BF300645CFA /* KeywordContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordContainerView.swift; sourceTree = "<group>"; };
+		420D63F72C68133500645CFA /* View+cornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+cornerRadius.swift"; sourceTree = "<group>"; };
+		420D63F92C6817D300645CFA /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		420D63FB2C681C7600645CFA /* DashedLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedLine.swift; sourceTree = "<group>"; };
+		420D63FD2C681FFB00645CFA /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		420D63FF2C68214500645CFA /* DontWorryYum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DontWorryYum.entitlements; sourceTree = "<group>"; };
 		42D1C9362C67103F00147312 /* DontWorryYum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DontWorryYum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D1C9392C67103F00147312 /* DontWorryYumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DontWorryYumApp.swift; sourceTree = "<group>"; };
 		42D1C93B2C67103F00147312 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +97,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		420D63D62C6790CA00645CFA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				420D63CA2C6790C400645CFA /* Pretendard-Black.otf */,
+				420D63C92C6790C400645CFA /* Pretendard-Bold.otf */,
+				420D63CC2C6790C400645CFA /* Pretendard-ExtraBold.otf */,
+				420D63C52C6790C400645CFA /* Pretendard-ExtraLight.otf */,
+				420D63C62C6790C400645CFA /* Pretendard-Light.otf */,
+				420D63C42C6790C300645CFA /* Pretendard-Medium.otf */,
+				420D63CB2C6790C400645CFA /* Pretendard-Regular.otf */,
+				420D63C82C6790C400645CFA /* Pretendard-SemiBold.otf */,
+				420D63C72C6790C400645CFA /* Pretendard-Thin.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		420D63DD2C67B6C900645CFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				420D63BE2C678AAD00645CFA /* Food.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		420D63E02C67B72800645CFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				420D63F12C67FFE800645CFA /* AppView.swift */,
+				420D63FD2C681FFB00645CFA /* SplashView.swift */,
+				420D63EF2C67FEB500645CFA /* IntroView.swift */,
+				420D63E52C67D95500645CFA /* NickNameView.swift */,
+				420D63E72C67DE6D00645CFA /* WeeksView.swift */,
+				420D63E92C67E88200645CFA /* MainView.swift */,
+				420D63DB2C67B62900645CFA /* SearchView.swift */,
+				420D63F32C6802E500645CFA /* ListView.swift */,
+				420D63C02C678F6100645CFA /* FoodView.swift */,
+				420D63F52C680BF300645CFA /* KeywordContainerView.swift */,
+				420D63FB2C681C7600645CFA /* DashedLine.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		42D1C92D2C67103F00147312 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +159,22 @@
 		42D1C9382C67103F00147312 /* DontWorryYum */ = {
 			isa = PBXGroup;
 			children = (
+				420D63FF2C68214500645CFA /* DontWorryYum.entitlements */,
 				42D1C9392C67103F00147312 /* DontWorryYumApp.swift */,
-				42D1C93B2C67103F00147312 /* ContentView.swift */,
 				42D1C9472C67488E00147312 /* APIKey.swift */,
+				420D63E32C67C3D500645CFA /* Food.json */,
+				420D63E12C67C38E00645CFA /* Nutrients.json */,
+				420D63DD2C67B6C900645CFA /* Model */,
+				420D63D72C6790E300645CFA /* Font+.swift */,
+				420D63EB2C67EA5400645CFA /* Date+.swift */,
+				420D63F92C6817D300645CFA /* Color+.swift */,
+				420D63F72C68133500645CFA /* View+cornerRadius.swift */,
+				420D63D92C67B44200645CFA /* NavigationManager.swift */,
+				420D63ED2C67EE8300645CFA /* Data.swift */,
+				42D1C93B2C67103F00147312 /* ContentView.swift */,
+				420D63E02C67B72800645CFA /* View */,
 				42D1C93D2C67104000147312 /* Assets.xcassets */,
+				420D63D62C6790CA00645CFA /* Fonts */,
 				42D1C93F2C67104000147312 /* Preview Content */,
 			);
 			path = DontWorryYum;
@@ -141,7 +254,16 @@
 			files = (
 				42D1C9412C67104000147312 /* Preview Assets.xcassets in Resources */,
 				42D1C93E2C67104000147312 /* Assets.xcassets in Resources */,
+				420D63D52C6790C400645CFA /* Pretendard-ExtraBold.otf in Resources */,
+				420D63D02C6790C400645CFA /* Pretendard-Thin.otf in Resources */,
+				420D63D12C6790C400645CFA /* Pretendard-SemiBold.otf in Resources */,
+				420D63D32C6790C400645CFA /* Pretendard-Black.otf in Resources */,
+				420D63CE2C6790C400645CFA /* Pretendard-ExtraLight.otf in Resources */,
 				420D63BD2C675D6200645CFA /* GenerativeAI-Info.plist in Resources */,
+				420D63CD2C6790C400645CFA /* Pretendard-Medium.otf in Resources */,
+				420D63D42C6790C400645CFA /* Pretendard-Regular.otf in Resources */,
+				420D63D22C6790C400645CFA /* Pretendard-Bold.otf in Resources */,
+				420D63CF2C6790C400645CFA /* Pretendard-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +274,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				420D63F62C680BF300645CFA /* KeywordContainerView.swift in Sources */,
+				420D63E42C67C3D500645CFA /* Food.json in Sources */,
+				420D63F02C67FEB500645CFA /* IntroView.swift in Sources */,
+				420D63EE2C67EE8300645CFA /* Data.swift in Sources */,
+				420D63EA2C67E88200645CFA /* MainView.swift in Sources */,
+				420D63D82C6790E300645CFA /* Font+.swift in Sources */,
 				42D1C93C2C67103F00147312 /* ContentView.swift in Sources */,
+				420D63FA2C6817D300645CFA /* Color+.swift in Sources */,
+				420D63E62C67D95500645CFA /* NickNameView.swift in Sources */,
+				420D63F82C68133500645CFA /* View+cornerRadius.swift in Sources */,
+				420D63DA2C67B44200645CFA /* NavigationManager.swift in Sources */,
+				420D63F42C6802E500645CFA /* ListView.swift in Sources */,
+				420D63E22C67C38E00645CFA /* Nutrients.json in Sources */,
+				420D63EC2C67EA5400645CFA /* Date+.swift in Sources */,
+				420D63FC2C681C7600645CFA /* DashedLine.swift in Sources */,
+				420D63C12C678F6100645CFA /* FoodView.swift in Sources */,
+				420D63DC2C67B62900645CFA /* SearchView.swift in Sources */,
+				420D63FE2C681FFB00645CFA /* SplashView.swift in Sources */,
+				420D63E82C67DE6D00645CFA /* WeeksView.swift in Sources */,
+				420D63F22C67FFE800645CFA /* AppView.swift in Sources */,
+				420D63BF2C678AAD00645CFA /* Food.swift in Sources */,
 				42D1C9482C67488E00147312 /* APIKey.swift in Sources */,
 				42D1C93A2C67103F00147312 /* DontWorryYumApp.swift in Sources */,
 			);
@@ -285,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DontWorryYum/DontWorryYum.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DontWorryYum/Preview Content\"";
@@ -315,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DontWorryYum/DontWorryYum.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DontWorryYum/Preview Content\"";
