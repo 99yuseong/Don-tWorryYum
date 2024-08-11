@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		420D63BD2C675D6200645CFA /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 420D63BC2C675D6200645CFA /* GenerativeAI-Info.plist */; };
 		420D63BF2C678AAD00645CFA /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63BE2C678AAD00645CFA /* Food.swift */; };
 		420D63C12C678F6100645CFA /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63C02C678F6100645CFA /* FoodView.swift */; };
 		420D63CD2C6790C400645CFA /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 420D63C42C6790C300645CFA /* Pretendard-Medium.otf */; };
@@ -41,7 +40,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		420D63BC2C675D6200645CFA /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
 		420D63BE2C678AAD00645CFA /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		420D63C02C678F6100645CFA /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
 		420D63C42C6790C300645CFA /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
@@ -176,7 +174,6 @@
 		42D1C92D2C67103F00147312 = {
 			isa = PBXGroup;
 			children = (
-				420D63BC2C675D6200645CFA /* GenerativeAI-Info.plist */,
 				42D1C9382C67103F00147312 /* DontWorryYum */,
 				42D1C9372C67103F00147312 /* Products */,
 			);
@@ -283,7 +280,6 @@
 				420D63D12C6790C400645CFA /* Pretendard-SemiBold.otf in Resources */,
 				420D63D32C6790C400645CFA /* Pretendard-Black.otf in Resources */,
 				420D63CE2C6790C400645CFA /* Pretendard-ExtraLight.otf in Resources */,
-				420D63BD2C675D6200645CFA /* GenerativeAI-Info.plist in Resources */,
 				420D63CD2C6790C400645CFA /* Pretendard-Medium.otf in Resources */,
 				420D63D42C6790C400645CFA /* Pretendard-Regular.otf in Resources */,
 				420D63D22C6790C400645CFA /* Pretendard-Bold.otf in Resources */,
