@@ -241,7 +241,7 @@ extension FoodView {
                     .foregroundStyle(.usLightHover)
                 RoundedRectangle(cornerRadius: 4)
                     .foregroundStyle(color)
-                    .frame(width: CGFloat(nutrient.amount / nutrient.recommendIntake) * gr.size.width)
+                    .frame(width: min(CGFloat(nutrient.amount / nutrient.recommendIntake) * (gr.size.width - 72.0), gr.size.width - 72.0))
             }
         }
     }

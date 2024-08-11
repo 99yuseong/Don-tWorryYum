@@ -491,41 +491,7 @@ struct Food: Identifiable, Hashable {
                     .init(
                         name: "Fat",
                         unit: "g",
-                        amount: 24,
-                        recommendIntake: 24,
-                        maxIntake: 45,
-                        isImportant: true
-                    ),
-                    .init(
-                        name: "Calcium",
-                        unit: "mg",
-                        amount: 388,
-                        recommendIntake: 700,
-                        maxIntake: 2500,
-                        isImportant: true
-                    )
-                ],
-                keywords: ["Protein", "Calcium"],
-                cautions: "Non-pasteurized cheese can carry the risk of listeria infection, which is very dangerous for pregnant women and their babies. Avoid consuming.",
-                amountOnce: "100g"
-            ),
-            Food(
-                name: "Camembert Cheese",
-                category: .dairyProducts,
-                evaluation: Evaluation(never: 0, rarely: 8, often: 36, usually: 24),
-                nutrients: [
-                    .init(
-                        name: "Protein",
-                        unit: "g",
-                        amount: 19,
-                        recommendIntake: 70,
-                        maxIntake: 70,
-                        isImportant: true
-                    ),
-                    .init(
-                        name: "Fat",
-                        unit: "g",
-                        amount: 24,
+                        amount: 212,
                         recommendIntake: 24,
                         maxIntake: 45,
                         isImportant: true

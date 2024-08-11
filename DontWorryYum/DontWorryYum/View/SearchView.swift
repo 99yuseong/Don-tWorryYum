@@ -110,6 +110,7 @@ struct SearchView: View {
                                 Spacer()
                             }
                             .padding(.vertical, 12)
+                            .background(.BG)
                             
                             Divider().foregroundStyle(.usLightHover)
                         }
