@@ -27,97 +27,101 @@ struct SearchView: View {
                 }
             )
             
-            if text.isEmpty {
-                VStack(alignment: .leading) {
-                    Text("Recommended")
-                        .foregroundStyle(.usNormal)
-                        .font(.pretendardMedium14)
-                    
-                    VStack(alignment: .leading, spacing: 12) {
-                        HStack(spacing: 12) {
-                            TagView(food: Food.mock().first!)
-                            TagView(food: Food.mock().first!)
-                            Spacer()
-                        }
+            ScrollView {
+                if text.isEmpty {
+                    VStack(alignment: .leading) {
+                        Text("Recommended")
+                            .foregroundStyle(.usNormal)
+                            .font(.pretendardMedium14)
                         
-                        HStack(spacing: 12) {
-                            TagView(food: Food.mock().first!)
-                            TagView(food: Food.mock().first!)
-                            Spacer()
+                        VStack(alignment: .leading, spacing: 12) {
+                            HStack(spacing: 12) {
+                                TagView(food: Food.mock().filter { $0.name.contains("Cheese") }.first!)
+                                TagView(food: Food.mock().filter { $0.name.contains("Tomato") }.first!)
+                                Spacer()
+                            }
+                            
+                            HStack(spacing: 12) {
+                                TagView(food: Food.mock().filter { $0.name.contains("Red Beans") }.first!)
+                                TagView(food: Food.mock().filter { $0.name.contains("Milk") }.first!)
+                                Spacer()
+                            }
+                        }
+                    }
+                    .padding(.bottom, 20)
+                    
+                    VStack(alignment: .leading) {
+                        Text("Use the category to find it easily")
+                            .foregroundStyle(.usNormal)
+                            .font(.pretendardMedium14)
+                        
+                        VStack(spacing: 12) {
+                            HStack(spacing: 12) {
+                                CategoryView(image: "meategg", text: "Meat ∙ Eggs")
+                                    .onTapGesture {
+                                        NavigationManager.shared.push(to: .list(category: .meatAndEggs))
+                                    }
+                                CategoryView(image: "fish", text: "Sea Food ∙ Dried Food")
+                                    .onTapGesture {
+                                        NavigationManager.shared.push(to: .list(category: .seaFoodAndDried))
+                                    }
+                            }
+                            HStack(spacing: 12) {
+                                CategoryView(image: "veggie", text: "Natural food")
+                                    .onTapGesture {
+                                        NavigationManager.shared.push(to: .list(category: .veggieAndFruits))
+                                    }
+                                CategoryView(image: "process", text: "Processed food")
+                                    .onTapGesture {
+                                        NavigationManager.shared.push(to: .list(category: .grainsAndNuts))
+                                    }
+                            }
+                            HStack(spacing: 12) {
+                                CategoryView(image: "milk", text: "Dairy Products")
+                                    .onTapGesture {
+                                        NavigationManager.shared.push(to: .list(category: .dairyProducts))
+                                    }
+                                CategoryView(image: "coffeeandtea", text: "Coffee ∙ Tea")
+                                    .onTapGesture {
+                                        NavigationManager.shared.push(to: .list(category: .coffeeAndTea))
+                                    }
+                            }
+                        }
+                    }
+                } else {
+                    ForEach(filteredFoods) { food in
+                        VStack(spacing: 0) {
+                            HStack(alignment: .top, spacing: 8) {
+                                Circle()
+                                    .foregroundStyle(food.evaluation.max.color)
+                                    .frame(width: 8)
+                                    .padding(.top, 5)
+                                
+                                VStack(alignment: .leading, spacing: 6) {
+                                    Text(food.name)
+                                        .font(.pretendardMedium16)
+                                        .foregroundStyle(.usDarker)
+                                    
+                                    Text(food.amountOnce)
+                                        .font(.pretendardMedium14)
+                                        .foregroundStyle(.usNormal)
+                                }
+                                
+                                Spacer()
+                            }
+                            .padding(.vertical, 12)
+                            
+                            Divider().foregroundStyle(.usLightHover)
+                        }
+                        .onTapGesture {
+                            NavigationManager.shared.push(to: .food(food: food))
                         }
                     }
                 }
                 
-                VStack(alignment: .leading) {
-                    Text("Use the category to find it easily")
-                        .foregroundStyle(.usNormal)
-                        .font(.pretendardMedium14)
-                    
-                    VStack(spacing: 12) {
-                        HStack(spacing: 12) {
-                            CategoryView(image: "meategg", text: "Meat ∙ Eggs")
-                                .onTapGesture {
-                                    NavigationManager.shared.push(to: .list(category: .meatAndEggs))
-                                }
-                            CategoryView(image: "fish", text: "Sea Food ∙ Dried Food")
-                                .onTapGesture {
-                                    NavigationManager.shared.push(to: .list(category: .seaFoodAndDried))
-                                }
-                        }
-                        HStack(spacing: 12) {
-                            CategoryView(image: "veggie", text: "Natural food")
-                                .onTapGesture {
-                                    NavigationManager.shared.push(to: .list(category: .veggieAndFruits))
-                                }
-                            CategoryView(image: "process", text: "Processed food")
-                                .onTapGesture {
-                                    NavigationManager.shared.push(to: .list(category: .grainsAndNuts))
-                                }
-                        }
-                        HStack(spacing: 12) {
-                            CategoryView(image: "milk", text: "Dairy Products")
-                                .onTapGesture {
-                                    NavigationManager.shared.push(to: .list(category: .dairyProducts))
-                                }
-                            CategoryView(image: "coffeeandtea", text: "Coffee ∙ Tea")
-                                .onTapGesture {
-                                    NavigationManager.shared.push(to: .list(category: .coffeeAndTea))
-                                }
-                        }
-                    }
-                }
-            } else {
-                ForEach(filteredFoods) { food in
-                    VStack(spacing: 0) {
-                        HStack(alignment: .top, spacing: 8) {
-                            Circle()
-                                .foregroundStyle(food.evaluation.max.color)
-                                .frame(width: 8)
-                                .padding(.top, 5)
-                            
-                            VStack(alignment: .leading, spacing: 6) {
-                                Text(food.name)
-                                    .font(.pretendardMedium16)
-                                    .foregroundStyle(.usDarker)
-                                
-                                Text(food.amountOnce)
-                                    .font(.pretendardMedium14)
-                                    .foregroundStyle(.usNormal)
-                            }
-                            
-                            Spacer()
-                        }
-                        .padding(.vertical, 12)
-                        
-                        Divider().foregroundStyle(.usLightHover)
-                    }
-                    .onTapGesture {
-                        NavigationManager.shared.push(to: .food(food: food))
-                    }
-                }
+                Spacer()
             }
-            
-            Spacer()
+            .scrollIndicators(.hidden)
         }
         .padding(.top, 20)
         .padding(.horizontal, 20)

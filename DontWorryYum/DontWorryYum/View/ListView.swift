@@ -63,6 +63,7 @@ struct ListView: View {
                     }
                 }
             }
+            .scrollIndicators(.hidden)
             
             Spacer()
         }

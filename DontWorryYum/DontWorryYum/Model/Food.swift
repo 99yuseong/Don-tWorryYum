@@ -48,7 +48,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Beef Tartare",
                 category: .seaFoodAndDried,
-                evaluation: Evaluation(never: 23, rarely: 23, often: 23, usually: 23),
+                evaluation: Evaluation(never: 23, rarely: 32, often: 12, usually: 5),
                 nutrients: [
                     .init(
                         name: "Protein",
@@ -98,7 +98,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Grilled Short Rib Patties",
                 category: .meatAndEggs,
-                evaluation: Evaluation(never: 23, rarely: 23, often: 23, usually: 23),
+                evaluation: Evaluation(never: 12, rarely: 25, often: 13, usually: 6),
                 nutrients: [
                     .init(
                         name: "Protein",
@@ -140,7 +140,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Eggs",
                 category: .meatAndEggs,
-                evaluation: Evaluation(never: 23, rarely: 23, often: 23, usually: 23),
+                evaluation: Evaluation(never: 0, rarely: 6, often: 33, usually: 34),
                 nutrients: [
                     .init(
                         name: "Protein",
@@ -182,7 +182,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Chicken",
                 category: .meatAndEggs,
-                evaluation: Evaluation(never: 23, rarely: 23, often: 23, usually: 23),
+                evaluation: Evaluation(never: 2, rarely: 12, often: 43, usually: 12),
                 nutrients: [
                     .init(
                         name: "Protein",
@@ -208,7 +208,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Duck Meat",
                 category: .meatAndEggs,
-                evaluation: Evaluation(never: 23, rarely: 23, often: 23, usually: 23),
+                evaluation: Evaluation(never: 12, rarely: 32, often: 23, usually: 12),
                 nutrients: [
                     .init(
                         name: "Protein",
@@ -242,7 +242,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Salmon",
                 category: .seaFoodAndDried,
-                evaluation: Evaluation(never: 23, rarely: 23, often: 23, usually: 23),
+                evaluation: Evaluation(never: 2, rarely: 24, often: 23, usually: 17),
                 nutrients: [
                     .init(
                         name: "Protein",
@@ -284,7 +284,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Mackerel",
                 category: .seaFoodAndDried,
-                evaluation: Evaluation(never: 23, rarely: 23, often: 23, usually: 23),
+                evaluation: Evaluation(never: 4, rarely: 8, often: 32, usually: 23),
                 nutrients: [
                     .init(
                         name: "Protein",
@@ -326,7 +326,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Shrimp",
                 category: .seaFoodAndDried,
-                evaluation: Evaluation(never: 23, rarely: 23, often: 23, usually: 23),
+                evaluation: Evaluation(never: 3, rarely: 24, often: 23, usually: 23),
                 nutrients: [
                     .init(
                         name: "Protein",
@@ -368,7 +368,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Shellfish",
                 category: .seaFoodAndDried,
-                evaluation: Evaluation(never: 23, rarely: 23, often: 23, usually: 23),
+                evaluation: Evaluation(never: 4, rarely: 23, often: 32, usually: 23),
                 nutrients: [
                     .init(
                         name: "Protein",
@@ -580,7 +580,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Soda",
                 category: .coffeeAndTea,
-                evaluation: Evaluation(never: 0, rarely: 8, often: 36, usually: 24),
+                evaluation: Evaluation(never: 28, rarely: 18, often: 16, usually: 7),
                 nutrients: [
                     .init(
                         name: "Carbohydrates",
@@ -606,7 +606,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Coffee",
                 category: .coffeeAndTea,
-                evaluation: Evaluation(never: 0, rarely: 8, often: 36, usually: 24),
+                evaluation: Evaluation(never: 16, rarely: 18, often: 12, usually: 7),
                 nutrients: [
                     .init(
                         name: "Caffeine",
@@ -632,7 +632,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Green Tea",
                 category: .coffeeAndTea,
-                evaluation: Evaluation(never: 0, rarely: 8, often: 36, usually: 24),
+                evaluation: Evaluation(never: 10, rarely: 18, often: 36, usually: 24),
                 nutrients: [
                     .init(
                         name: "Caffeine",
@@ -658,7 +658,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Energy Drink",
                 category: .coffeeAndTea,
-                evaluation: Evaluation(never: 0, rarely: 8, often: 36, usually: 24),
+                evaluation: Evaluation(never: 30, rarely: 18, often: 24, usually: 14),
                 nutrients: [
                     .init(
                         name: "Caffeine",
@@ -898,7 +898,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Hamburger",
                 category: .grainsAndNuts,
-                evaluation: Evaluation(never: 0, rarely: 8, often: 36, usually: 24),
+                evaluation: Evaluation(never: 20, rarely: 18, often: 12, usually: 12),
                 nutrients: [
                     .init(
                         name: "Protein",
@@ -932,7 +932,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Pizza",
                 category: .grainsAndNuts,
-                evaluation: Evaluation(never: 0, rarely: 8, often: 36, usually: 24),
+                evaluation: Evaluation(never: 10, rarely: 28, often: 16, usually: 24),
                 nutrients: [
                     .init(
                         name: "Carbohydrates",
@@ -966,7 +966,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Instant Noodles",
                 category: .grainsAndNuts,
-                evaluation: Evaluation(never: 0, rarely: 8, often: 36, usually: 24),
+                evaluation: Evaluation(never: 20, rarely: 18, often: 12, usually: 11),
                 nutrients: [
                     .init(
                         name: "Carbohydrates",
@@ -992,7 +992,7 @@ struct Food: Identifiable, Hashable {
             Food(
                 name: "Spicy Rice Cakes",
                 category: .grainsAndNuts,
-                evaluation: Evaluation(never: 0, rarely: 8, often: 36, usually: 24),
+                evaluation: Evaluation(never: 20, rarely: 28, often: 21, usually: 13),
                 nutrients: [
                     .init(
                         name: "Carbohydrates",

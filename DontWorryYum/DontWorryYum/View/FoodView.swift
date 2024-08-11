@@ -22,114 +22,117 @@ struct FoodView: View {
     
     var body: some View {
         GeometryReader { gr in
-            ScrollView {
-                VStack(alignment: .leading, spacing: 0) {
-                    HStack {
-                        Button {
-                            NavigationManager.shared.pop()
-                        } label: {
-                            Image(systemName: "chevron.left")
-                        }
-                        
-                        Spacer()
+            VStack {
+                HStack {
+                    Button {
+                        NavigationManager.shared.pop()
+                    } label: {
+                        Image(systemName: "chevron.left")
                     }
-                    .padding(.bottom, 16)
                     
-                    VStack(alignment: .leading, spacing: 10) {
-                        HStack {
-                            Circle().frame(width: 8)
-                                .foregroundStyle(food.evaluation.max.color)
+                    Spacer()
+                }
+                .padding(.bottom, 16)
+                .padding(.leading, 20)
+                
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 0) {
+                        VStack(alignment: .leading, spacing: 10) {
+                            HStack {
+                                Circle().frame(width: 8)
+                                    .foregroundStyle(food.evaluation.max.color)
+                                
+                                Text(food.name)
+                                    .font(.pretendardBold24)
+                            }
                             
-                            Text(food.name)
-                                .font(.pretendardBold24)
+                            KeywordContainerView(items: food.keywords)
                         }
-                        
-                        KeywordContainerView(items: food.keywords)
-                    }
-                    .padding(.horizontal, 10)
-                    .padding(.bottom, 16)
-                    
-                    USDivider()
+                        .padding(.horizontal, 10)
                         .padding(.bottom, 16)
-                    
-                    HStack {
                         
-                        Text(selection != nil ? "Thank you!" : "Please Vote!")
-                            .font(.pretendardBold14)
-                            .foregroundStyle(.white)
-                            .padding(.horizontal, 12)
-                            .padding(.vertical, 4)
-                            .background(selection != nil ? .usGreen : .accent)
-                            .cornerRadius(30, corners: [.topLeft, .topRight])
+                        USDivider()
+                            .padding(.bottom, 16)
                         
-                        Spacer()
-                        
-                        HStack(spacing: 4) {
-                            Text("\(food.evaluation.total + (selection != nil ? 1 : 0))")
-                                .foregroundStyle(.accent)
+                        HStack {
                             
-                            Text("Mom’s Pick")
-                                .foregroundStyle(.usNormal)
-                        }
-                        .font(.pretendardMedium12)
-                    }
-                    
-                    EvaluationView(evaluation: food.evaluation)
-                        .background(
-                            RoundedCorner(radius: 8, corners: [.topRight, .bottomLeft, .bottomRight])
-                                .stroke(.usLight, lineWidth: 1)
-                        )
-                        .padding(.bottom, 20)
-                    
-                    
-                    VStack(spacing: 16) {
-                        HStack(spacing: 8) {
-                            Text("Ingredient")
-                                .foregroundStyle(.usDarker)
-                                .font(.pretendardBold20)
-                            
-                            Text("\(food.amountOnce)")
-                                .foregroundStyle(.usNormal)
-                                .font(.pretendardMedium14)
+                            Text(selection != nil ? "Thank you!" : "Please Vote!")
+                                .font(.pretendardBold14)
+                                .foregroundStyle(.white)
+                                .padding(.horizontal, 12)
+                                .padding(.vertical, 4)
+                                .background(selection != nil ? .usGreen : .accent)
+                                .cornerRadius(30, corners: [.topLeft, .topRight])
                             
                             Spacer()
                             
-                            VStack {
-                                Image(systemName: isNutrientShowing ? "chevron.down" : "chevron.up")
-                                    .frame(width: 12)
+                            HStack(spacing: 4) {
+                                Text("\(food.evaluation.total + (selection != nil ? 1 : 0))")
+                                    .foregroundStyle(.accent)
+                                
+                                Text("Mom’s Pick")
+                                    .foregroundStyle(.usNormal)
+                            }
+                            .font(.pretendardMedium12)
+                        }
+                        
+                        EvaluationView(evaluation: food.evaluation)
+                            .background(
+                                RoundedCorner(radius: 8, corners: [.topRight, .bottomLeft, .bottomRight])
+                                    .stroke(.usLight, lineWidth: 1)
+                            )
+                            .padding(.bottom, 20)
+                        
+                        
+                        VStack(spacing: 16) {
+                            HStack(spacing: 8) {
+                                Text("Ingredient")
                                     .foregroundStyle(.usDarker)
+                                    .font(.pretendardBold20)
+                                
+                                Text("\(food.amountOnce)")
+                                    .foregroundStyle(.usNormal)
+                                    .font(.pretendardMedium14)
+                                
+                                Spacer()
+                                
+                                VStack {
+                                    Image(systemName: isNutrientShowing ? "chevron.down" : "chevron.up")
+                                        .frame(width: 12)
+                                        .foregroundStyle(.usDarker)
+                                }
+                                .frame(width: 24, height: 24)
+                                .onTapGesture {
+                                    isNutrientShowing.toggle()
+                                }
                             }
-                            .frame(width: 24, height: 24)
-                            .onTapGesture {
-                                isNutrientShowing.toggle()
-                            }
-                        }
-                        
-                        if isNutrientShowing {
-                            ForEach(Array(food.nutrients.enumerated()), id: \.offset) { index, item in
-                                NutrientBar(nutrient: item, color: colors[index], gr: gr)
-                            }
-                        }
-                        
-                        USDivider()
-                        
-                        VStack(alignment: .leading, spacing: 16) {
-                            Text("Be Careful!")
-                                .font(.pretendardBold18)
                             
-                            Text(food.cautions)
-                                .font(.pretendardRegular14)
+                            if isNutrientShowing {
+                                ForEach(Array(food.nutrients.enumerated()), id: \.offset) { index, item in
+                                    NutrientBar(nutrient: item, color: colors[index], gr: gr)
+                                }
+                            }
+                            
+                            USDivider()
+                            
+                            VStack(alignment: .leading, spacing: 16) {
+                                Text("Be Careful!")
+                                    .font(.pretendardBold18)
+                                
+                                Text(food.cautions)
+                                    .font(.pretendardRegular14)
+                            }
+                            .foregroundStyle(.usDarkActive)
                         }
-                        .foregroundStyle(.usDarkActive)
+                        .padding(.horizontal, 16)
+                        .padding(.vertical, 20)
+                        .background(
+                            RoundedRectangle(cornerRadius: 8)
+                                .stroke(Color.usLight, lineWidth: 1)
+                        )
                     }
-                    .padding(.horizontal, 16)
-                    .padding(.vertical, 20)
-                    .background(
-                        RoundedRectangle(cornerRadius: 8)
-                            .stroke(Color.usLight, lineWidth: 1)
-                    )
+                    .padding(.horizontal, 20)
                 }
-                .padding(.horizontal, 20)
             }
         }
         .navigationBarBackButtonHidden()
