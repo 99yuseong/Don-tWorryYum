@@ -22,8 +22,6 @@
 		420D63D82C6790E300645CFA /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63D72C6790E300645CFA /* Font+.swift */; };
 		420D63DA2C67B44200645CFA /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63D92C67B44200645CFA /* NavigationManager.swift */; };
 		420D63DC2C67B62900645CFA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63DB2C67B62900645CFA /* SearchView.swift */; };
-		420D63E22C67C38E00645CFA /* Nutrients.json in Sources */ = {isa = PBXBuildFile; fileRef = 420D63E12C67C38E00645CFA /* Nutrients.json */; };
-		420D63E42C67C3D500645CFA /* Food.json in Sources */ = {isa = PBXBuildFile; fileRef = 420D63E32C67C3D500645CFA /* Food.json */; };
 		420D63E62C67D95500645CFA /* NickNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63E52C67D95500645CFA /* NickNameView.swift */; };
 		420D63E82C67DE6D00645CFA /* WeeksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63E72C67DE6D00645CFA /* WeeksView.swift */; };
 		420D63EA2C67E88200645CFA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63E92C67E88200645CFA /* MainView.swift */; };
@@ -38,11 +36,8 @@
 		420D63FC2C681C7600645CFA /* DashedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63FB2C681C7600645CFA /* DashedLine.swift */; };
 		420D63FE2C681FFB00645CFA /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420D63FD2C681FFB00645CFA /* SplashView.swift */; };
 		42D1C93A2C67103F00147312 /* DontWorryYumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C9392C67103F00147312 /* DontWorryYumApp.swift */; };
-		42D1C93C2C67103F00147312 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C93B2C67103F00147312 /* ContentView.swift */; };
 		42D1C93E2C67104000147312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D1C93D2C67104000147312 /* Assets.xcassets */; };
 		42D1C9412C67104000147312 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D1C9402C67104000147312 /* Preview Assets.xcassets */; };
-		42D1C9482C67488E00147312 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C9472C67488E00147312 /* APIKey.swift */; };
-		42D1C94C2C6748EA00147312 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 42D1C94B2C6748EA00147312 /* GoogleGenerativeAI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,8 +56,6 @@
 		420D63D72C6790E300645CFA /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
 		420D63D92C67B44200645CFA /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
 		420D63DB2C67B62900645CFA /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		420D63E12C67C38E00645CFA /* Nutrients.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Nutrients.json; sourceTree = "<group>"; };
-		420D63E32C67C3D500645CFA /* Food.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Food.json; sourceTree = "<group>"; };
 		420D63E52C67D95500645CFA /* NickNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickNameView.swift; sourceTree = "<group>"; };
 		420D63E72C67DE6D00645CFA /* WeeksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeksView.swift; sourceTree = "<group>"; };
 		420D63E92C67E88200645CFA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -79,10 +72,8 @@
 		420D63FF2C68214500645CFA /* DontWorryYum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DontWorryYum.entitlements; sourceTree = "<group>"; };
 		42D1C9362C67103F00147312 /* DontWorryYum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DontWorryYum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D1C9392C67103F00147312 /* DontWorryYumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DontWorryYumApp.swift; sourceTree = "<group>"; };
-		42D1C93B2C67103F00147312 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42D1C93D2C67104000147312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42D1C9402C67104000147312 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		42D1C9472C67488E00147312 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42D1C94C2C6748EA00147312 /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				420D63BE2C678AAD00645CFA /* Food.swift */,
+				420D63ED2C67EE8300645CFA /* Data.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -124,6 +115,7 @@
 		420D63E02C67B72800645CFA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4237C2BF2C6842BE007540F8 /* Components */,
 				420D63F12C67FFE800645CFA /* AppView.swift */,
 				420D63FD2C681FFB00645CFA /* SplashView.swift */,
 				420D63EF2C67FEB500645CFA /* IntroView.swift */,
@@ -133,10 +125,52 @@
 				420D63DB2C67B62900645CFA /* SearchView.swift */,
 				420D63F32C6802E500645CFA /* ListView.swift */,
 				420D63C02C678F6100645CFA /* FoodView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4237C2BD2C68429C007540F8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				420D63D72C6790E300645CFA /* Font+.swift */,
+				420D63EB2C67EA5400645CFA /* Date+.swift */,
+				420D63F92C6817D300645CFA /* Color+.swift */,
+				420D63F72C68133500645CFA /* View+cornerRadius.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4237C2BE2C6842AA007540F8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				420D63D92C67B44200645CFA /* NavigationManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4237C2BF2C6842BE007540F8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
 				420D63F52C680BF300645CFA /* KeywordContainerView.swift */,
 				420D63FB2C681C7600645CFA /* DashedLine.swift */,
 			);
-			path = View;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4237C2C02C6842DA007540F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42D1C93D2C67104000147312 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4237C2C12C6842F2007540F8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				42D1C9392C67103F00147312 /* DontWorryYumApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 		42D1C92D2C67103F00147312 = {
@@ -160,20 +194,12 @@
 			isa = PBXGroup;
 			children = (
 				420D63FF2C68214500645CFA /* DontWorryYum.entitlements */,
-				42D1C9392C67103F00147312 /* DontWorryYumApp.swift */,
-				42D1C9472C67488E00147312 /* APIKey.swift */,
-				420D63E32C67C3D500645CFA /* Food.json */,
-				420D63E12C67C38E00645CFA /* Nutrients.json */,
+				4237C2C12C6842F2007540F8 /* App */,
 				420D63DD2C67B6C900645CFA /* Model */,
-				420D63D72C6790E300645CFA /* Font+.swift */,
-				420D63EB2C67EA5400645CFA /* Date+.swift */,
-				420D63F92C6817D300645CFA /* Color+.swift */,
-				420D63F72C68133500645CFA /* View+cornerRadius.swift */,
-				420D63D92C67B44200645CFA /* NavigationManager.swift */,
-				420D63ED2C67EE8300645CFA /* Data.swift */,
-				42D1C93B2C67103F00147312 /* ContentView.swift */,
+				4237C2BD2C68429C007540F8 /* Extensions */,
+				4237C2BE2C6842AA007540F8 /* Helper */,
 				420D63E02C67B72800645CFA /* View */,
-				42D1C93D2C67104000147312 /* Assets.xcassets */,
+				4237C2C02C6842DA007540F8 /* Resources */,
 				420D63D62C6790CA00645CFA /* Fonts */,
 				42D1C93F2C67104000147312 /* Preview Content */,
 			);
@@ -205,7 +231,6 @@
 			);
 			name = DontWorryYum;
 			packageProductDependencies = (
-				42D1C94B2C6748EA00147312 /* GoogleGenerativeAI */,
 			);
 			productName = DontWorryYum;
 			productReference = 42D1C9362C67103F00147312 /* DontWorryYum.app */;
@@ -236,7 +261,6 @@
 			);
 			mainGroup = 42D1C92D2C67103F00147312;
 			packageReferences = (
-				42D1C94A2C6748EA00147312 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
 			);
 			productRefGroup = 42D1C9372C67103F00147312 /* Products */;
 			projectDirPath = "";
@@ -275,18 +299,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				420D63F62C680BF300645CFA /* KeywordContainerView.swift in Sources */,
-				420D63E42C67C3D500645CFA /* Food.json in Sources */,
 				420D63F02C67FEB500645CFA /* IntroView.swift in Sources */,
 				420D63EE2C67EE8300645CFA /* Data.swift in Sources */,
 				420D63EA2C67E88200645CFA /* MainView.swift in Sources */,
 				420D63D82C6790E300645CFA /* Font+.swift in Sources */,
-				42D1C93C2C67103F00147312 /* ContentView.swift in Sources */,
 				420D63FA2C6817D300645CFA /* Color+.swift in Sources */,
 				420D63E62C67D95500645CFA /* NickNameView.swift in Sources */,
 				420D63F82C68133500645CFA /* View+cornerRadius.swift in Sources */,
 				420D63DA2C67B44200645CFA /* NavigationManager.swift in Sources */,
 				420D63F42C6802E500645CFA /* ListView.swift in Sources */,
-				420D63E22C67C38E00645CFA /* Nutrients.json in Sources */,
 				420D63EC2C67EA5400645CFA /* Date+.swift in Sources */,
 				420D63FC2C681C7600645CFA /* DashedLine.swift in Sources */,
 				420D63C12C678F6100645CFA /* FoodView.swift in Sources */,
@@ -295,7 +316,6 @@
 				420D63E82C67DE6D00645CFA /* WeeksView.swift in Sources */,
 				420D63F22C67FFE800645CFA /* AppView.swift in Sources */,
 				420D63BF2C678AAD00645CFA /* Food.swift in Sources */,
-				42D1C9482C67488E00147312 /* APIKey.swift in Sources */,
 				42D1C93A2C67103F00147312 /* DontWorryYumApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,11 +455,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DontWorryYum/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mom's Pick";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,9 +467,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuseong.com.DontWorryYum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,11 +490,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DontWorryYum/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mom's Pick";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,9 +502,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuseong.com.DontWorryYum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -506,25 +534,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		42D1C94A2C6748EA00147312 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/google/generative-ai-swift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.5.5;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		42D1C94B2C6748EA00147312 /* GoogleGenerativeAI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 42D1C94A2C6748EA00147312 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
-			productName = GoogleGenerativeAI;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 42D1C92E2C67103F00147312 /* Project object */;
 }

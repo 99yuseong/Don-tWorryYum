@@ -7,11 +7,19 @@
 
 import SwiftUI
 
+enum Selection {
+    case never
+    case rarely
+    case often
+    case usually
+}
+
 struct MainView: View {
     @AppStorage("nickname") private var nickname: String = "Jenny"
     @AppStorage("date") private var date: Double = Date().timeIntervalSince1970
     var week: Int { Date(timeIntervalSince1970: date).toWeek() }
     @State private var text: String = ""
+    @State private var selection: Selection? = nil
     
     var body: some View {
         ZStack {
@@ -27,7 +35,6 @@ struct MainView: View {
                         
                         HStack(spacing: 4) {
                             Text("Week \(week)")
-                            Image(systemName: "chevron.down")
                         }
                         .font(.pretendardBold16)
                         .foregroundStyle(.accent)
@@ -113,8 +120,10 @@ struct MainView: View {
                             )
                             .padding(4)
                     }
-                    .background(.usLightHover)
+                    .background(selection != nil ? .usGreen : .usLightHover)
                     .clipShape(RoundedRectangle(cornerRadius: 6))
+                    
+                    Spacer()
                 }
                 .padding(.horizontal, 20)
                 .background(.white)
@@ -133,7 +142,14 @@ extension MainView {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 50, height: 50)
-                Text("\(evaluation.never.count)")
+                Text("\(evaluation.never.count + (selection == .never ? 1 : 0))")
+            }
+            .font(selection == .never ? .pretendardBold12 : .pretendardMedium12)
+            .foregroundStyle(selection == .never ? .accent : .usNormal)
+            .frame(width: 64, height: 98)
+            .background(selection == .never ? .usPink.opacity(0.1) : .white)
+            .onTapGesture {
+                selection = .never
             }
             
             Spacer()
@@ -144,7 +160,14 @@ extension MainView {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 50, height: 50)
-                Text("\(evaluation.rarely.count)")
+                Text("\(evaluation.rarely.count + (selection == .rarely ? 1 : 0))")
+            }
+            .font(selection == .rarely ? .pretendardBold12 : .pretendardMedium12)
+            .foregroundStyle(selection == .rarely ? .accent : .usNormal)
+            .frame(width: 64, height: 98)
+            .background(selection == .rarely ? .usPink.opacity(0.1) : .white)
+            .onTapGesture {
+                selection = .rarely
             }
             
             Spacer()
@@ -155,7 +178,14 @@ extension MainView {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 50, height: 50)
-                Text("\(evaluation.often.count)")
+                Text("\(evaluation.often.count + (selection == .often ? 1 : 0))")
+            }
+            .font(selection == .often ? .pretendardBold12 : .pretendardMedium12)
+            .foregroundStyle(selection == .often ? .accent : .usNormal)
+            .frame(width: 64, height: 98)
+            .background(selection == .often ? .usPink.opacity(0.1) : .white)
+            .onTapGesture {
+                selection = .often
             }
             
             Spacer()
@@ -166,13 +196,17 @@ extension MainView {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 50, height: 50)
-                Text("\(evaluation.usually.count)")
+                Text("\(evaluation.usually.count + (selection == .usually ? 1 : 0))")
+            }
+            .font(selection == .usually ? .pretendardBold12 : .pretendardMedium12)
+            .foregroundStyle(selection == .usually ? .accent : .usNormal)
+            .frame(width: 64, height: 98)
+            .background(selection == .usually ? .usPink.opacity(0.1) : .white)
+            .onTapGesture {
+                selection = .usually
             }
         }
-        .font(.pretendardMedium12)
-        .foregroundStyle(.usNormal)
         .padding(.horizontal, 28)
-        .padding(.vertical, 6)
     }
     
     @ViewBuilder

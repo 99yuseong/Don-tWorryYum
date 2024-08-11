@@ -33,32 +33,34 @@ struct ListView: View {
             }
             .frame(height: 44)
             
-            ForEach(foods) { food in
-                VStack(spacing: 0) {
-                    HStack(alignment: .top, spacing: 8) {
-                        Circle()
-                            .foregroundStyle(food.evaluation.max.color)
-                            .frame(width: 8)
-                            .padding(.top, 5)
-                        
-                        VStack(alignment: .leading, spacing: 6) {
-                            Text(food.name)
-                                .font(.pretendardMedium16)
-                                .foregroundStyle(.usDarker)
+            ScrollView {
+                ForEach(foods.filter { $0.category == category }) { food in
+                    VStack(spacing: 0) {
+                        HStack(alignment: .top, spacing: 8) {
+                            Circle()
+                                .foregroundStyle(food.evaluation.max.color)
+                                .frame(width: 8)
+                                .padding(.top, 5)
                             
-                            Text(food.amountOnce)
-                                .font(.pretendardMedium14)
-                                .foregroundStyle(.usNormal)
+                            VStack(alignment: .leading, spacing: 6) {
+                                Text(food.name)
+                                    .font(.pretendardMedium16)
+                                    .foregroundStyle(.usDarker)
+                                
+                                Text(food.amountOnce)
+                                    .font(.pretendardMedium14)
+                                    .foregroundStyle(.usNormal)
+                            }
+                            
+                            Spacer()
                         }
+                        .padding(.vertical, 12)
                         
-                        Spacer()
+                        Divider().foregroundStyle(.usLightHover)
                     }
-                    .padding(.vertical, 12)
-                    
-                    Divider().foregroundStyle(.usLightHover)
-                }
-                .onTapGesture {
-                    NavigationManager.shared.push(to: .food(food: food))
+                    .onTapGesture {
+                        NavigationManager.shared.push(to: .food(food: food))
+                    }
                 }
             }
             

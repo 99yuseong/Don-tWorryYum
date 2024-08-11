@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/swiftpm,macos,swift,xcode
-# Edit at https://www.toptal.com/developers/gitignore?templates=swiftpm,macos,swift,xcode
+# Created by https://www.toptal.com/developers/gitignore/api/xcode,macos,swift
+# Edit at https://www.toptal.com/developers/gitignore?templates=xcode,macos,swift
 
 ### macOS ###
 # General
@@ -118,12 +118,6 @@ fastlane/test_output
 
 iOSInjectionProject/
 
-### SwiftPM ###
-Packages
-xcuserdata
-*.xcodeproj
-
-
 ### Xcode ###
 
 ## Xcode 8 and earlier
@@ -137,8 +131,4 @@ xcuserdata
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-# End of https://www.toptal.com/developers/gitignore/api/swiftpm,macos,swift,xcode
-
-### API KEY ###
-
-GenerativeAI-Info.plist
+# End of https://www.toptal.com/developers/gitignore/api/xcode,macos,swift
