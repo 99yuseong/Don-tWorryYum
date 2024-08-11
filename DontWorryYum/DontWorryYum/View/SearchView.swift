@@ -37,7 +37,7 @@ struct SearchView: View {
                         VStack(alignment: .leading, spacing: 12) {
                             HStack(spacing: 12) {
                                 TagView(food: Food.mock().filter { $0.name.contains("Cheese") }.first!)
-                                TagView(food: Food.mock().filter { $0.name.contains("Tomato") }.first!)
+                                TagView(food: Food.mock().filter { $0.name.contains("Salmon") }.first!)
                                 Spacer()
                             }
                             

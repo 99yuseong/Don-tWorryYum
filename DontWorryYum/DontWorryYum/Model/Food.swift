@@ -264,8 +264,8 @@ struct Food: Identifiable, Hashable {
                         name: "Omega-3",
                         unit: "g",
                         amount: 2.5,
-                        recommendIntake: 500,
-                        maxIntake: 2000,
+                        recommendIntake: 10,
+                        maxIntake: 10,
                         isImportant: true
                     ),
                     .init(
@@ -278,7 +278,7 @@ struct Food: Identifiable, Hashable {
                     )
                 ],
                 keywords: ["Fetal brain development", "Cardiovascular health"],
-                cautions: "May contain high levels of mercury. Avoid frequent consumption and make sure to cook it thoroughly before eating.",
+                cautions: "Salmon can have some mercury in it, and too much mercury isn’t good for your baby’s developing nervous system. So, it’s best to limit how much you eat—maybe just one or two servings a week. Also, make sure the salmon is fully cooked to avoid any risk of foodborne illness.",
                 amountOnce: "100g"
             ),
             Food(
